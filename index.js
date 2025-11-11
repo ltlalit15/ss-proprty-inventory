@@ -69,7 +69,8 @@ app.use(morgan('combined', { stream: accessLogStream })); // for file logging
 const allowedOrigins = [
   'http://localhost:5173',
   'https://buyer-seller-crm.netlify.app',
-  'https://sage-mandazi-ffd09f.netlify.app'
+  'https://sage-mandazi-ffd09f.netlify.app',
+ 'https://alomcare.co.uk'
 ];
 
 app.use(
